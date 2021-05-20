@@ -4,12 +4,11 @@ import Card from "./Card";
 function Expenses(props) {
   const data = props.expenses.map((expense) => {
     return (
-      <Card className="expenses">
+      <Card key={expense.id} className="expenses">
         <ExpenseItem
           date={expense.date}
           amount={expense.amount}
           title={expense.title}
-          key={expense.id}
         />
       </Card>
     );
