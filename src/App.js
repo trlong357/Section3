@@ -8,7 +8,7 @@ const App = () => {
       id: "e1",
       title: "Toilet Paper",
       amount: 94.12,
-      date: new Date(2020, 4, 27),
+      date: new Date(2019, 4, 27),
     },
     {
       id: "e2",
@@ -20,13 +20,13 @@ const App = () => {
       id: "e3",
       title: "TV",
       amount: 93.34,
-      date: new Date(2020, 4, 27),
+      date: new Date(2021, 4, 27),
     },
     {
       id: "e4",
       title: "AC",
       amount: 200.12,
-      date: new Date(2020, 4, 27),
+      date: new Date(2022, 4, 27),
     },
   ];
 
