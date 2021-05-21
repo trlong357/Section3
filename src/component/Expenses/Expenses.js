@@ -1,4 +1,3 @@
-import ExpenseList from "./ExpensesList";
 import "./Expenses.css";
 import Card from "../UI/Card";
 import React, { useState } from "react";
