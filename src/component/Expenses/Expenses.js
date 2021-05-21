@@ -9,7 +9,12 @@ const Expenses = (props) => {
   const filterChangeHandler = (year) => {
     setFilteredYear(year);
   };
-  const data = props.expenses.map((expense) => {
+
+  const yearChoosen = props.expenses.filter((expense) => {
+    return expense.date.getFullYear().toString() === filteredYear;
+  });
+
+  const data = yearChoosen.map((expense) => {
     return (
       <ExpenseItem
         date={expense.date}
