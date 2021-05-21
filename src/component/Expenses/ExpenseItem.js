@@ -2,7 +2,7 @@ import "./ExpenseItem.css";
 import "./ExpenseDate";
 import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
-import React, { useState } from "react";
+import React from "react";
 const ExpenseItem = (props) => {
   return (
     <Card className="expense-item">
